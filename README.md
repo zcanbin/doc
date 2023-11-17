@@ -15,7 +15,7 @@
         - [linux](doc/nginx/linux安装.md)
 
     - [ftp](#)
-        - [linux(vsftp)]((doc/ftp/linux安装.md)
+        - [linux(vsftp)](doc/ftp/linux安装.md)
 
 - [Java](#java)
 
