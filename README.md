@@ -1,4 +1,24 @@
+- [安装](#)
+
+    - [jdk1.8](#)
+        - [linux](doc/jdk1.8/linux安装.md)
+        - [windows](doc/jdk1.8/windows安装.md)
+        - [注意事项](doc/jdk1.8/注意事项.md)
+    - [redis](#)
+        - [linux](doc/redis/linux安装.md)
+        - [windows](doc/redis/windows安装.md)
+    - [mysql](#)
+        - [linux](doc/mysql/linux安装.md)
+        - [windows](doc/mysql/windows安装.md)
+
+    - [nginx](#)
+        - [linux](doc/nginx/linux安装.md)
+
+    - [ftp](#)
+        - [linux(vsftp)]((doc/ftp/linux安装.md)
+
 - [Java](#java)
+
     - [容器](#)
         - [HashMap源码学习](doc/collection/HashMap源码学习.md)
     - [并发](#)
@@ -13,6 +33,7 @@
     - [设计模式](#)
         - [单例模式](doc/pattern/单例模式.md)
         - [工厂模式](doc/pattern/工厂模式.md)
+
 - [springboot](#)
     - [入门](#)
         - [使用Idea新建SpringBoot项目](doc/springboot/使用Idea新建SpringBoot项目.md)
@@ -34,6 +55,7 @@
         - [SpringBoot整合elasticsearch](doc/springboot/SpringBoot整合elasticsearch.md)
         - [SpringBoot整合kafka](doc/springboot/SpringBoot整合kafka.md)
         - [SpringBoot整合storm](doc/springboot/SpringBoot整合storm.md)
+
 - [springcloud]( https://www.springcloud.cc/spring-cloud-dalston.html )
     - [SpringCloud整合nacos](doc/springcloud/SpringCloud整合nacos.md)
     - [SpringCloud整合ribbon(负载均衡)](/doc/springcloud/SpringCloud整合ribbon.md)
@@ -43,13 +65,16 @@
     - [SpringCloud整合Sleuth(服务链路追踪)](/doc/springcloud/SpringCloud整合Sleuth.md)
     - [SpringCloud整合Admin(监控)](/doc/springcloud/SpringCloud整合Admin.md)
     - [SpringCloud整合TxLcn(分布式事务)](doc/springcloud/SpringCloud整合TxLcn.md)
+
 - [mybatis](#)
     - [mybatis基础](doc/mybatis/mybatis基础.md)
     - [mybatis动态SQL](doc/mybatis/mybatis动态SQL.md)
     - [mybatis注解](doc/mybatis/mybatis注解.md)
     - [mybatis相关概念](doc/mybatis/mybatis相关概念.md)
+
 - [分布式任务调度](#)
     - [xxl-job](doc/task/xxl-job.md)
+
 - [redis](#)
     - [aof和rdb对比](doc/redis/aof和rdb对比.md)
     - [redis分布式锁 vs zk分布式锁](doc/redis/redis分布式锁vszk分布式锁.md)
@@ -60,17 +85,22 @@
       - [使用redis+lua生成分布式ID](doc/redis/lua/使用redis+lua生成全局id.md)
       - [使用redis+lua生成分布式锁](doc/redis/lua/使用redis+lua生成分布式锁.md)
       - [使用redis+lua进行商品秒杀](doc/redis/lua/使用redis+lua进行商品秒杀.md)
+
 - [rocketmq](#)
     - [rocketmq介绍和使用](doc/rocketmq/rocketmq介绍和使用.md)
     - [rocketmq集群部署](doc/rocketmq/rocketmq集群部署.md)
+
 - [kafka](#kafka)
     - [kafka常见问题](doc/kafka/kafka常见问题.md)
     - [kafka集群部署](doc/kafka/kafka集群.md)
+
 - [zookeeper](#)
     - [zookeeper基础](doc/zookeeper/zookeeper基础.md)
     - [zookeeper集群部署](doc/zookeeper/zookeeper集群部署.md)
     - [zookeeper分布式锁](doc/zookeeper/zookeeper分布式锁.md)
+
 - [canal](https://github.com/alibaba/canal)
+
 - [ELK](#)
     - [elasticsearch](#)
         - [elasticsearch概念篇](doc/elk/elasticsearch/elasticsearch概念篇.md)
@@ -89,25 +119,31 @@
     - [kibana](#)
         - [kibana部署](doc/elk/kibana/kibana部署.md)
     - [springboot aop + elk + kafka 搭建 日志收集系统](doc/elk/日志收集系统.md)
+
 - [hadoop](#)
     - [hadoop介绍](doc/hadoop/hadoop介绍.md)
     - [hadoop集群部署](doc/hadoop/hadoop集群部署.md)
     - [hdfs常用命令](doc/hadoop/hdfs常用命令.md)
     - [mapreduce使用](doc/hadoop/mapreduce使用.md)
+
 - [hbase](#)
     - [hbase介绍和原理](doc/hbase/hbase介绍和原理.md)
     - [hbase集群部署](doc/hbase/hbase集群部署.md)
     - [java整合hbase](doc/hbase/java整合hbase.md)
+
 - [storm](#)
     - [storm介绍](doc/storm/storm介绍.md)
     - [storm集群部署](doc/storm/storm部署.md)
     - [storm整合kafka](doc/storm/storm整合kafka.md)
+
 - [flink](#)
+
 - [mysql](#)
     - [mysql索引实现原理](doc/mysql/mysql索引实现原理.md)
     - [mysql主从复制](doc/mysql/mysql主从复制.md)
     - [mycat读写分离](doc/mysql/mycat读写分离.md)
     - [mycat分库分表](doc/mysql/mycat分库分表.md)
+
 - [kettle](#)
     - [入门](#)
         - [输入控件和输出控件](doc/kettle/输入控件和输出控件.md)
@@ -116,11 +152,14 @@
         - [连接控件和统计控件](doc/kettle/连接控件和统计控件.md)
         - [映射控件和脚本控件](doc/kettle/映射控件和脚本控件.md)
         - [作业和参数](doc/kettle/作业和参数.md)
+
 - [图数据库-neo4j](#)
     - [neo4j概念和语法](doc/neo4j/neo4j概念和语法.md)
     - [neo4j安装部署(linux)](doc/neo4j/neo4j安装部署(linux).md)
     - [java操作neo4j](doc/neo4j/java操作neo4j.md)
+
 - [docker](#)
+
 - [linux](#)
     - [jdk安装](doc/linux/jdk安装.md)
     - [mysql安装](doc/linux/mysql安装.md)
@@ -129,6 +168,7 @@
     - [scp命令](doc/linux/scp命令.md)
     - [关闭指定端口](doc/linux/关闭指定端口.md)
     - [关闭防火墙](doc/linux/关闭防火墙.md)
+
 - [其他](#)
     - [高并发缓存数据库数据一致性解决方案](doc/other/高并发缓存数据一致性解决方案.md)
 
